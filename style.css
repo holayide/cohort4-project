@@ -27,11 +27,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1.80857;
 }
-
 body.demos .section {
     background: url(images/bg.png) repeat top center #f2f3f5;
 }
-
 body.demos .section-title img {
     max-width: 280px;
     display: block;
@@ -54,7 +52,6 @@ body.demos .service-widget {
 body.demos .container-fluid {
     max-width: 1080px
 }
-
 a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -560,7 +557,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section.db {
-    background-color: #1f1f1f;
+    /* background-color: #1f1f1f; */
 }
 
 .section.color1 {
@@ -681,7 +678,7 @@ body.app_version .header_style_01.fixed-menu{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(230,81,0,0.25);
+	/* background: rgba(230,81,0,0.25); */
 	left: 0px;
 	right: 0px;
 	top: 0px;
@@ -710,7 +707,7 @@ body.app_version .header_style_01.fixed-menu{
 	height: 90px;
 	text-align: center;
 	line-height: 90px;
-	background: rgb(99, 26, 26);
+	/* background: rgb(99, 26, 26); */
 	box-shadow: inset 0 0 0 10px rgba(51,51,51,0.6), 0 1px 2px rgba(0,0,0,0.1);
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -742,16 +739,84 @@ body.app_version .header_style_01.fixed-menu{
 
 
 /*------------------------------------------------------------------
+    ABOUT
+-------------------------------------------------------------------*/
+.about img{
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+}
+.col-1g-7 h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.fs-5{
+    font-size: 1.5rem;
+}
+.fs-2{
+    font-size: 1.2rem;
+}
+.col-md-6 .about-text{
+    margin-left: 50px;
+}
+.skills .card .pro-value1{
+    background-color: rgb(99, 26, 26);
+}
+.about-copyrights{
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    /* changed */
+    margin-top: -10px;
+    padding: 20px 0px 0px;
+    overflow: hidden;
+}
+/*------------------------------------------------------------------
     PORTFOLIO
 -------------------------------------------------------------------*/
 
-.item-h2,
+.portfolio h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.portfolio p{
+    font-size: 1.3rem;
+}
+.portfolio span a img{
+    background-color: #111111;
+    position: absolute;
+    bottom: 7px;
+    right: 50%;
+}
+.item .img-fluid{
+    width: 85%;
+    height: 85%;
+    padding-top: 10px;
+    object-fit: cover;
+}
+.item{
+    width: 100%;
+    height: 100%;
+    margin-top: 95px;
+    position: relative;
+    object-fit: cover;
+    -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+    box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
+}
+
+
+
+
+/* .item-h2,
 .item-h1 {
     height: 100% !important;
     height: auto !important;
-}
+} */
 
-.isotope-item {
+/* .isotope-item {
     z-index: 2;
     padding: 0;
 }
@@ -759,12 +824,12 @@ body.app_version .header_style_01.fixed-menu{
 .isotope-hidden.isotope-item {
     pointer-events: none;
     z-index: 1;
-}
+} */
 
-.isotope,
-.isotope .isotope-item {
+/* .isotope,
+.isotope .isotope-item { */
     /* change duration value to whatever you like */
-    -webkit-transition-duration: 0.8s;
+    /* -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
 }
@@ -1009,7 +1074,7 @@ body.app_version .header_style_01.fixed-menu{
 
 
 
- 
+  */
 
 /*------------------------------------------------------------------
     CONTACT
@@ -1084,7 +1149,13 @@ select.mobile-device {
     height: 100% !important;
     opacity: 0;
 }
-
+/* added */
+.footer .subscribe-text{
+    font-size: 2.3rem;
+    color: #111111;
+    display: block;
+    margin-left: 30px;
+}
 
 /*# sourceMappingURL=bootstrap-select.css.map */
 
@@ -1196,7 +1267,7 @@ body.app_version .bootstrap-select .btn-light:hover{
     FOOTER
 -------------------------------------------------------------------*/
 
-.cac {
+/* .cac {
     background-color: #232323;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -1271,16 +1342,18 @@ body.app_version .bootstrap-select .btn-light:hover{
 .subscribe-form .subscribe-btn:hover{
 	background: #333333;
 }
-
+*/
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
     background-color: #1f1f1f;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    padding: 20px 0px;
+    /* changed */
+    margin-top: 150px;
+    padding: 20px 0px 0px;
     overflow: hidden;
-}
+} 
 
 
 /* Footer left */
