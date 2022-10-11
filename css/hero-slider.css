@@ -235,11 +235,12 @@ Hero Slider - by CodyHouse.co
 
 .cd-hero__content--img img {
   position: absolute;
-  left: 50%;
+  left: 57%;
   top: 55%;
   bottom: auto;
   right: auto;
-  width: 60%;
+  width: 80%;
+  object-fit: cover;
   -webkit-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
           transform: translateX(-50%) translateY(-50%);

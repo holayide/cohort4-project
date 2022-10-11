@@ -354,7 +354,6 @@ a img.aligncenter {
 	color: #ffffff;
 	border: 1px solid rgb(99, 26, 26);
 }
-
 /*Navbar Toogle*/
 .navbar-toggler {
 	background: rgb(99, 26, 26);
@@ -557,7 +556,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 .section.db {
-    /* background-color: #1f1f1f; */
+    background-color: #1f1f1f;
 }
 
 .section.color1 {
@@ -799,7 +798,7 @@ body.app_version .header_style_01.fixed-menu{
 .item{
     width: 100%;
     height: 100%;
-    margin-top: 95px;
+    margin-top: 150px;
     position: relative;
     object-fit: cover;
     -webkit-box-shadow: 6px 4px 41px -24px rgba(0,0,0,0.75);
@@ -1151,12 +1150,27 @@ select.mobile-device {
 }
 /* added */
 .footer .subscribe-text{
-    font-size: 2.3rem;
-    color: #111111;
     display: block;
-    margin-left: 30px;
+    margin: 8% 0 0 30px;
+   
 }
-
+.footer .subscribe-text h1{
+    color: rgb(99, 26, 26);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.footer .subscribe-text a {
+    font-size: 1rem;
+    padding-top: 2px;
+}
+.footer .subscribe-text a iconify-icon{
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+.footer .subscribe a iconify-icon{
+   font-size: 2rem;
+}
 /*# sourceMappingURL=bootstrap-select.css.map */
 
 .bootstrap-select > .btn {
